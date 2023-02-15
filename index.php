@@ -59,25 +59,25 @@ Diversité : le site présente des recettes de différentes cultures culinaires,
         <div class="card col-4" style="width: 20rem;">
       <img src="./uploads/recipes/1-chocolate-au-mousse.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">Mousse au chocolat</h5>
+        <p class="card-text">Découvrez cette recette de Crème au chocolat. Ces petites crèmes sont très faciles et super rapides à réaliser... Faites-en une fournée et vous ne les achèterez plus jamais toutes prêtes. En plus, pas besoin de four, ce qui permettra à vos chers bambins de vous donner un p'tit coup de main pour remuer et verser la crème dans les pots... Ils vont adorer.</p>
+        <a href="#" class="btn btn-primary">Accédez à la recette</a>
       </div>
     </div>
         <div class="card col-3" style="width: 20rem;">
-      <img src="./uploads/recipes/1-chocolate-au-mousse.jpg" class="card-img-top" alt="...">
+      <img src="./uploads/recipes/2-gratin-dauphinois.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">gratin dauphinois</h5>
+        <p class="card-text">Ce gratin est un plat riche et réconfortant, idéal quand le paysage se couvre de neige. Les cèpes séchés sont ici utilisés en petite quantité, plus à la façon d'un assaisonnement. Ils apportent un parfum incomparable à un plat d'apparence toute simpl.</p>
+        <a href="#" class="btn btn-primary">Accédez à la recette</a>
       </div>
     </div>
         <div class="card col-3" style="width: 20rem;">
-      <img src="./uploads/recipes/1-chocolate-au-mousse.jpg" class="card-img-top" alt="...">
+      <img src="./uploads/recipes/3-salade.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">salade composée</h5>
+        <p class="card-text">SLaitue romaine, endive, feuille de chêne, mâche, scarole ou même pissenlit pour les plus connues, difficile de faire le tour des salades vertes quand on sait qu'il en existe environ 2000 variétés dans le monde ! Petites, grosses, frisées, vertes ou rougeâtres, aux saveurs poivrées comme la roquette ou amères comme le radicchio, il y en a pour tous les goûts. La salade, c'est notre amie pour la vie surtout lorsqu'elle accompagne une bonne tartiflette et qu'elle nous donne bonne conscience.</p>
+        <a href="#" class="btn btn-primary">Accédez à la recette</a>
       </div>
     </div>
 
