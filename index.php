@@ -71,7 +71,7 @@ Diversité : le site présente des recettes de différentes cultures culinaires,
     
    <?php foreach ($recipes as $key => $recipe) {?>
 
-    <div class="card col-4" style="width: 30rem;">
+    <div class="card col-4" style="width: 35em;">
       <img src="./uploads/recipes/<?=$recipe["images"]?>" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"><?=$recipe["title"]?></h5>
