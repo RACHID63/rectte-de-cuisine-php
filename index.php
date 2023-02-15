@@ -5,11 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Site de recette</title>
 </head>
 <body>
+  <?php
+  $recipes = [
+    ["title" => "Mousse au chocolat", "description" => "Découvrez cette recette de Crème au chocolat. Ces petites crèmes sont très faciles et super rapides à réaliser... Faites-en une fournée et vous ne les achèterez plus jamais toutes prêtes. En plus, pas besoin de four, ce qui permettra à vos chers bambins de vous donner un p'tit coup de main pour remuer et verser la crème dans les pots... Ils vont adorer.", "images" => "1-chocolate-au-mousse.jpg"],
+
+    ["title" => "gratin dauphinois", "description" => "Ce gratin est un plat riche et réconfortant, idéal quand le paysage se couvre de neige. Les cèpes séchés sont ici utilisés en petite quantité, plus à la façon d'un assaisonnement. Ils apportent un parfum incomparable à un plat d'apparence toute simpl.", "images" => "2-gratin-dauphinois.jpg"],
+
+    ["title" => "salade composée", "description" => "Laitue romaine, endive, feuille de chêne, mâche, scarole ou même pissenlit pour les plus connues, difficile de faire le tour des salades vertes quand on sait qu'il en existe environ 2000 variétés dans le monde ! Petites, grosses, frisées, vertes ou rougeâtres, aux saveurs poivrées comme la roquette ou amères comme le radicchio, il y en a pour tous les goûts. La salade, c'est notre amie pour la vie surtout lorsqu'elle accompagne une bonne tartiflette et qu'elle nous donne bonne conscience.", "images" => "3-salade.jpg"]
+  ];
+  
+  var_dump($recipes)
+ 
+?>
+
 <header class="p-3 text-bg-dark">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -38,6 +51,7 @@
   </header>
 
   <div class="ms-3  row flex-lg-row-reverse align-items-center g-5 py-5">
+
       <div class="col-6 col-sm-8 col-lg-6">
         <img src="./assets/images/logo-cuisinea.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350"  loading="lazy">
       </div>
@@ -49,14 +63,18 @@ Partage : les membres peuvent partager leurs propres recettes et échanger avec 
 Actualité : le site propose des recettes de saison et des idées pour les fêtes et événements, permettant de rester à jour et de s'adapter aux circonstances.
 Diversité : le site présente des recettes de différentes cultures culinaires, offrant ainsi la possibilité de découvrir de nouvelles saveurs et de s'ouvrir à des cuisines moins connues.  </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button><
         </div>
       </div>
     </div>
 
     <div class="row  flex-wrap d-flex justify-content-around ">
-        <div class="card col-4" style="width: 20rem;">
+
+   <?php
+
+   ?>
+
+        <div class="card col-4" style="width: 30rem;">
       <img src="./uploads/recipes/1-chocolate-au-mousse.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Mousse au chocolat</h5>
@@ -64,7 +82,7 @@ Diversité : le site présente des recettes de différentes cultures culinaires,
         <a href="#" class="btn btn-primary">Accédez à la recette</a>
       </div>
     </div>
-        <div class="card col-3" style="width: 20rem;">
+        <div class="card col-3" style="width: 30rem;">
       <img src="./uploads/recipes/2-gratin-dauphinois.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">gratin dauphinois</h5>
@@ -72,11 +90,11 @@ Diversité : le site présente des recettes de différentes cultures culinaires,
         <a href="#" class="btn btn-primary">Accédez à la recette</a>
       </div>
     </div>
-        <div class="card col-3" style="width: 20rem;">
+        <div class="card col-3" style="width: 30rem;">
       <img src="./uploads/recipes/3-salade.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">salade composée</h5>
-        <p class="card-text">SLaitue romaine, endive, feuille de chêne, mâche, scarole ou même pissenlit pour les plus connues, difficile de faire le tour des salades vertes quand on sait qu'il en existe environ 2000 variétés dans le monde ! Petites, grosses, frisées, vertes ou rougeâtres, aux saveurs poivrées comme la roquette ou amères comme le radicchio, il y en a pour tous les goûts. La salade, c'est notre amie pour la vie surtout lorsqu'elle accompagne une bonne tartiflette et qu'elle nous donne bonne conscience.</p>
+        <p class="card-text">Laitue romaine, endive, feuille de chêne, mâche, scarole ou même pissenlit pour les plus connues, difficile de faire le tour des salades vertes quand on sait qu'il en existe environ 2000 variétés dans le monde ! Petites, grosses, frisées, vertes ou rougeâtres, aux saveurs poivrées comme la roquette ou amères comme le radicchio, il y en a pour tous les goûts. La salade, c'est notre amie pour la vie surtout lorsqu'elle accompagne une bonne tartiflette et qu'elle nous donne bonne conscience.</p>
         <a href="#" class="btn btn-primary">Accédez à la recette</a>
       </div>
     </div>

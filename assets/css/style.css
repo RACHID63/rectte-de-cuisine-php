@@ -1,4 +1,10 @@
-/* #cards {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .cards {
     box-shadow: -10px 10px 9px 0px #cd562a91;
 } */
 
