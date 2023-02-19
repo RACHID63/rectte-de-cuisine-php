@@ -3,6 +3,6 @@
       <div class="card-body">
         <h5 class="card-title"><?=$recipe["title"]?></h5>
         <p class="card-text"><?=$recipe["description"]?></p>
-        <a href="#" class="btn btn-primary">Accédez à la recette</a>
+        <a href="recette.php?id=<?=$key;?>" class="btn btn-primary">Accédez à la recette</a>
       </div>
     </div>

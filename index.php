@@ -1,6 +1,7 @@
 <?php
 require("Templates/header.php");
 require_once('lib/recipes.php');
+var_dump($recipes)
 
 ?>
 

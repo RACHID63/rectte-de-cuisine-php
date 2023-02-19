@@ -1,13 +1,12 @@
 <?php
 require_once('Templates/header.php');
-require_once('lib/config.php');
+require_once('lib/recipes.php');
+// require_once('lib/config.php');
 
 ?>
 
-
-
   <div class="ms-3  row flex-lg-row-reverse align-items-center g-5 py-5">
-<h1>Liste des recette</h1>
+<h1>Liste des recettes</h1>
     </div>
 
     <div class="row  flex-wrap d-flex justify-content-around ">
