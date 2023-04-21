@@ -1,12 +1,8 @@
 <?php
 require("Templates/header.php");
 require_once('lib/recipes.php');
-var_dump($recipes)
 
 ?>
-
-
-
   <div class="ms-3  row flex-lg-row-reverse align-items-center g-5 py-5">
 
       <div class="col-6 col-sm-8 col-lg-6">
@@ -29,6 +25,7 @@ Diversité : le site présente des recettes de différentes cultures culinaires,
     
    <?php foreach ($recipes as $key => $recipe) {
   include('Templates/reccipe_partial.php');
+  
      } ?>
 
     </div>

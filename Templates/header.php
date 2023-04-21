@@ -1,5 +1,9 @@
 <?php
 require_once('lib/config.php');
+
+$currentPage  =  basename($_SERVER['SCRIPT_NAME']);
+
+
 ?>
 
 <!DOCTYPE html>
@@ -23,12 +27,12 @@ require_once('lib/config.php');
           <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
         </a>
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="index.php" class="nav-link px-2 text-secondary">Acceuil</a></li>
-          <li><a href="recettes.php" class="nav-link px-2 text-white">Nos recettes</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 nav nav-pills">
+          <li><a href="index.php" class="nav-link <?php if ($currentPage=== 'index.php' ) {echo 'active';} ?> ">Acceuil</a></li>
+          <li><a href="recettes.php" class="nav-link <?php if ($currentPage=== 'recettes.php' ) {echo 'active';} ?>">Nos recettes</a></li>
+          <li><a href="#" class="nav-link ">Pricing</a></li>
+          <li><a href="#" class="nav-link ">FAQs</a></li>
+          <li><a href="#" class="nav-link ">About</a></li>
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
